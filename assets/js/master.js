@@ -1,11 +1,8 @@
 $( document ).ready(function()
 {
-    const myDialog = document.getElementById('inner-dialog');
-    myDialog.addEventListener('click', (event) =>
-    {
-        if (event.target.id !== 'inner-dialog')
-        {
-            myDialog.close();
-        }
-    });
+const myDialog = document.getElementById('d');
+myDialog.addEventListener('click', () => myDialog.close());
+
+const myDiv = document.getElementById('inner-dialog');
+myDiv.addEventListener('click', (event) => event.stopPropagation());
 });

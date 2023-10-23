@@ -7,6 +7,11 @@ section
 {
     padding: 40px;
 }
+.mg-0
+{
+    margin: 0px;
+}
+
 .bg-blue
 {
     background-color: #0074e3;

@@ -49,7 +49,7 @@ dialog
 }
 dialog#d[open]
 {
-    border-radius: 5px;
+    border-radius: 20px;
     width: 50% !important;
     height: 50% !important
     ;

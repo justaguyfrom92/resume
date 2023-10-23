@@ -3,7 +3,10 @@ body
     margin: 0px;
     padding: 0px;
 }
-
+section
+{
+    padding: 40px;
+}
 .bg-blue
 {
     background-color: #0074e3;

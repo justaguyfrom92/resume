@@ -19,6 +19,10 @@ section
 {
     margin: 0px;
 }
+.upper
+{
+    text-transform: uppercase;
+}
 
 .btn
 {

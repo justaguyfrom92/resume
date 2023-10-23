@@ -60,3 +60,7 @@ dialog#d[open]
     width: auto;
     padding: 15px;
 }
+dialog:-internal-dialog-in-top-layer::backdrop
+{
+    background: rgba(0, 0, 0, 0.5);
+}

@@ -11,6 +11,22 @@ body
     font-family: system-ui;
 }
 
+.container
+{
+    width: 95 em;
+    margin: auto;
+}
+
+.header
+{
+    margin: 0px;
+}
+
+.footer
+{
+    margin-bottom: 40px;
+}
+
 section
 {
     padding: 20px 40px;

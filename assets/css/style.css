@@ -42,7 +42,7 @@ section
 
 .btn
 {
-    border: 3px white solid;
+    border: 3px #0074e3 solid;
     padding: 20px;
     border-radius: 50px;
     display: inline-block;
@@ -52,8 +52,8 @@ section
 }
 .btn:hover
 {
-    background-color: white;
-    color: #0074e3;   
+    background-color: #0074e3;
+    color: white;   
 }
 
 .bg-blue

@@ -84,7 +84,7 @@
         transform: scale(1);
         width: 100vw;
         z-index: 0;
-        background-image: linear-gradient(270deg, rgba(255,255,255,0.859) 57%, rgba(255,255,255,0.141) 100%), url('assets/imgs/background.svg');
+        background-image: linear-gradient(270deg, rgba(255,255,255,0.859) 57%, rgba(255,255,255,0.141) 100%), url('https://justaguyfrom92.github.io/resume/assets/imgs/background.svg');
         background-position: 0% 0%, center;
         background-repeat: repeat, no-repeat;
         background-size: cover, cover;
@@ -1773,11 +1773,8 @@
         justify-content: center;
         background-attachment: fixed;
         background-color: #000000;
-        background-image: linear-gradient(135deg, rgba(0,85,250,0.8) 0%, rgba(0,255,224,0.722) 100%), 
-    url('assets/imgs/header_container.svg');
-        
-    
-    background-position: 0% 0%, 50% calc(50% - (((var(--scroll-y, 0) * 1px) - (var(--element-top, 0) * 1px)) * var(--background-parallax-intensity, 0)) );
+        background-image: linear-gradient(135deg, rgba(0,85,250,0.8) 0%, rgba(0,255,224,0.722) 100%), url('https://justaguyfrom92.github.io/resume/assets/imgs/header_container.svg');
+        background-position: 0% 0%, 50% calc(50% - (((var(--scroll-y, 0) * 1px) - (var(--element-top, 0) * 1px)) * var(--background-parallax-intensity, 0)) );
         background-repeat: repeat, no-repeat;
         background-size: cover, cover;
         
@@ -2678,8 +2675,7 @@
         background-attachment: fixed;
         background-color: #000000;
         border-radius: 1rem;
-        background-image: linear-gradient(135deg, rgba(0,85,250,0.8) 0%, rgba(0,255,224,0.722) 82%), 
-    url('assets/images/container19.svg?v=0f8ea1a3');
+        background-image: linear-gradient(135deg, rgba(0,85,250,0.8) 0%, rgba(0,255,224,0.722) 82%), url('https://justaguyfrom92.github.io/resume/assets/images/container19.svg?v=0f8ea1a3');
         background-position: 0% 0%, 50% calc(50% - (((var(--scroll-y, 0) * 1px) - (var(--element-top, 0) * 1px)) * var(--background-parallax-intensity, 0)) );
         background-repeat: repeat, no-repeat;
         background-size: cover, cover;

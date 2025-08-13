@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Iframe Desktop/Mobile Toggle</title>
+        <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* No outer page scrollbars */
+            background: #000; /* Optional for contrast */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        button {
+            padding: 0.6rem 1.2rem;
+            font-size: 1rem;
+            cursor: pointer;
+            margin: 10px;
+            z-index: 10;
+        }
+
+        iframe {
+            border: none;
+            display: block;
+        }
+
+        /* Desktop iframe */
+        .desktop iframe {
+            width: 100vw;
+            height: 93vh;
+        }
+
+        /* Mobile iframe */
+        .mobile iframe {
+            width: 375px;
+            height: 93vh;
+        }
+        </style>
+    </head>
+    <body>
+
+    <div style="margin-top: 20px;">
+        <button id="toggleBtn">Switch to Mobile View</button>
+    </div>
+    <div class="desktop" id="iframeContainer">
+        <iframe src="https://justaguyfrom92.github.io/resume/bootstrap.html" title="Resume iframe"></iframe>
+    </div>
+
+    <script>
+    const btn = document.getElementById('toggleBtn');
+    const container = document.getElementById('iframeContainer');
+    let isMobile = false;
+
+    btn.addEventListener('click', () =>
+    {
+        if (isMobile)
+        {
+            container.classList.remove('mobile');
+            container.classList.add('desktop');
+            btn.textContent = 'Switch to Mobile View';
+        }
+        else
+        {
+            container.classList.remove('desktop');
+            container.classList.add('mobile');
+            btn.textContent = 'Switch to Desktop View';
+        }
+        isMobile = !isMobile;
+    });
+    </script>
+</body>
+</html>
